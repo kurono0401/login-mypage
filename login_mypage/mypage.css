@@ -1,0 +1,109 @@
+body{
+    font-family:メイリオ;
+}
+header{
+    width:100%;
+    height:80px;
+    background-color:white;
+    box-shadow:2px 2px 4px lightgray;
+    text-align:center;
+}
+
+header img{
+    margin-top:15px;
+    height:50px;
+    padding-left:40px;
+}
+
+.login{
+    float:right;
+    margin-top:50px;
+    margin-right:20px;
+    font-size:14px;
+}
+
+main{
+    clear:left;
+    width:100%;
+}
+
+.confirm{
+    margin:0 auto;
+    border:lightgray solid 2px;
+    width:600px;
+    background-color: white;
+    border-radius:10px;
+    margin-top:40px;
+    margin-bottom:40px;
+    box-shadow:4px 4px 4px lightgray;
+}
+
+.form_contents{
+    margin-top:30px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+
+h2{
+    text-align:center;
+    border-bottom:solid 1px #31A263;
+    font-size:20px;
+}
+
+.profile_pic{
+    display:inline-block;
+    border:solid 2px lightgray;
+    text-align: center;
+    margin-left:45px;
+}
+
+.profile_pic img{
+    width:110px;
+    height:110px;
+}
+
+.profile_text{
+    display:inline-block;
+    margin-left:30px;
+}
+
+.profile_text p {
+    line-height:20px;
+}
+
+.comments_contents{
+    border-top:solid 1px lightgray;
+    margin-top:30px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:30px;
+    padding-top:10px;
+}
+
+.editbutton{
+    text-align:center;
+    padding-bottom:40px;
+}
+
+.submit_button{
+    background-color:#31A263;
+    color:white;
+    border-radius:5px;
+    border:lightgray solid 1px;
+    border-bottom:solid 2px gray;
+    width:140px;
+    padding:6px 10px 4px 10px;
+    font-size:15px;
+}
+
+footer{
+    width:100%;
+    height:40px;
+    background-color:white;
+    color:gray;
+    text-align:center;
+    line-height:40px;
+    font-size:13px;
+    border-top:lightgray solid 2px;
+}
